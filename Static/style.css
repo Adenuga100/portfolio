@@ -118,8 +118,8 @@ nav .menubtn ion-icon{
     }
 
     nav{
-        width: 775px;
         height: 70px;
+        position: fixed;
     }
    
     nav .menu .mean{
@@ -136,9 +136,13 @@ nav .menubtn ion-icon{
        justify-content: center;
        align-items: center;
        bottom: 20px;
-        display: flex;
+        display: inline;
+
+        margin-right: auto;
         color: whitesmoke;
     }
+
+    
 }
 
 
@@ -231,19 +235,31 @@ ul li a ion-icon{
     line-height: 30px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 100px) {
+@media screen and (max-width: 768px) and (min-width: 100px){
     section .home{
         justify-content: center;
         align-items: center;
-        width: 775px;
+        width: auto;
         height: 560px;
+        
     }
 
+    section .home .homes{
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-top: 25px;
+    }
+   
+    .home ul{
+        justify-content: center;
+        align-items: center;
+    }
+
+   
     
 
-    section .home{
-        position: relative;
-    }
+  
 }
 
 /*Home**/
@@ -342,12 +358,14 @@ span{
         display: inline-block;
         justify-content: center;
         align-items: center;
+       
     }
 
     .abouT{
         display: inline-block;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
    
@@ -355,13 +373,12 @@ span{
     
 
     .About .about .img{
-        display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .About .about img{
-        width: 50%;
+        width: 70%;
         margin-top: 50px;
         border: 5px solid rgb(102, 206, 171);
         border-radius: 2000px;
@@ -370,7 +387,7 @@ span{
     }
 
     .About .about .about1 p{
-        width: 650px;
+        width: 100%;
         justify-content: center;
         align-items: center;
         text-align: left;
@@ -488,8 +505,9 @@ span{
     }
     
     .serivce .box{
-        width: 600px;
+        width: auto;
         padding: 30px;
+        margin: 20px;
         height: auto;
         justify-content: center;
         align-items: center;
@@ -585,16 +603,28 @@ span{
 
 @media screen and (max-width: 768px) and (min-width: 100px){
     .skills{
-        display: inline-block;
+        display: block;
         justify-content: center;
         align-items: center;
+        margin: 0px;
     }
     .skil{
-       display: inline-block; 
+       display: block; 
         justify-content: center;
         align-items: center;
-        width: 740px;
+        width: auto;
+        margin: 0px;
         
+
+    }
+
+    .skill h3::after{
+     display: none;
+    }
+    .skill .div{
+   
+        justify-content: center;
+        align-items: center;
     }
 
     .skil div{
@@ -604,6 +634,11 @@ span{
       
     }
 
+    .skill .dev{
+        position: relative;
+        display: block;
+        margin: 5px;
+    }
     .skil div .Tech{
         justify-content: center;
         align-items: center;
@@ -855,24 +890,37 @@ span{
         
     }
 
+    .con{
+        margin: 0px;
+    }
+    
     .contact{
         justify-content: center;
         align-items: center;
+       
     }
-
-
-    .contact .p{
+    .cont .contact p{
+        width: 80%;
         justify-content: center;
         align-items: center;
     }
+
+   
 
     .cont .contact form .for input,textarea{
         width: 90%;
     }
 
     .cont .contact form .btn button{
-        width: 550px;
+        width: 70%;
+
        
+    }
+
+    .cont .contact form .btn button{
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
 
     .cont .contact form .btn{
@@ -880,6 +928,7 @@ span{
         justify-content: center;
         align-items: center;
         padding-right: 30px;
+
     }
 
     .cont .contact .mail{
@@ -900,6 +949,7 @@ span{
     .cont .contact ul{
         justify-content: center;
         align-items: center;
+        width: 70%;
     }
 
 
@@ -1120,9 +1170,10 @@ span{
         align-items: center;
         
     }
+    
      
     .project .software .ware1 .git{
-        width: 730px;
+        width: auto;
         justify-content: center;
         align-items: center;
     }
@@ -1135,14 +1186,12 @@ span{
         text-align: center;
         justify-content: center;
         align-items: center;
-        width: 800px;
         
     }
 
     .project .till{
         justify-content: center;
         align-items: center;
-        width: 800px;
     }
 
     .project .wordp img{
