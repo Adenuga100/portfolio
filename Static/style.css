@@ -239,7 +239,7 @@ ul li a ion-icon{
     section .home{
         justify-content: center;
         align-items: center;
-        width: auto;
+        width: 100%;
         height: 560px;
         
     }
