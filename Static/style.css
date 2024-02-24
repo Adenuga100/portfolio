@@ -79,7 +79,8 @@ nav ul li a{
     background: rgb(23, 23, 48);
 }
 
-nav .menubtn ion-icon{
+nav .menubtn{
+    
     font-size: 13px;
     display: none;
 }
@@ -130,14 +131,32 @@ nav .menubtn ion-icon{
         margin-bottom: 55px;
     }
 
-    nav .menubtn ion-icon{
-        font-size: 15px;
+    nav .menubtn, nav .close{
+        font-size: 25px;
         position: relative;
        justify-content: center;
        align-items: center;
-       bottom: 30px;
+       bottom: 28px;
         display: inline;
-        left: -30px;
+        left: 50px;
+        border-radius: 30px;
+        border: 2px solid rgb(102, 206, 171);
+        box-shadow: 0px 0px 50px 2px rgb(102, 206, 171);
+        margin-right: auto;
+        color: whitesmoke;
+    }
+
+    nav .close{
+        font-size: 25px;
+        position: relative;
+       justify-content: center;
+       align-items: center;
+         bottom: 0px;
+        display: inline;
+        left: 0px;
+        border-radius: 30px;
+        border: 2px solid rgb(102, 206, 171);
+        box-shadow: 0px 0px 50px 2px rgb(102, 206, 171);
         margin-right: auto;
         color: whitesmoke;
     }
@@ -419,7 +438,7 @@ span{
         display: inline-block;
         justify-content: center;
         align-items: center;
-        width: 90%;
+        width: 100%;
     }
 
    
@@ -443,7 +462,7 @@ span{
     }
 
     .About .about .about1 p{
-        width: 100%;
+        width: 150%;
         justify-content: center;
         align-items: center;
         text-align: left;
@@ -563,7 +582,7 @@ span{
     }
     
     .serivce .box{
-        width: auto;
+        width: 100%;
         padding: 30px;
         margin: 20px;
         height: auto;
@@ -670,7 +689,7 @@ span{
        display: block; 
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 90%;
         margin-left: 15px;
         
 
@@ -945,7 +964,7 @@ span{
         display: inline-block;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 100%;
         
     }
 
@@ -1099,11 +1118,10 @@ span{
 
 .project .wordp img{
     box-shadow: 0px 0px  20px  2px rgb(102, 206, 171);
-    width: 100%;
-    height: 90%;
+    width: 400px;
+    height: 150px;
     margin: 20px;
     border: 1px solid rgb(102, 206, 171);
-    border-radius: 50px
     
   
 }
@@ -1138,6 +1156,7 @@ span{
 .project .wordp .word1 .overlay1 p{
     color: whitesmoke;
     justify-content: center;
+    margin-top: 15px;
     align-items: center;
 }
 
@@ -1148,47 +1167,75 @@ span{
 .project .wordp .overlay{
    
     position:absolute;
-    width: 100%;
-    height: 62%;
-     left: 6%;
-     top: 29%;
+    width: 400px;
+    height: 150px;
+     left: 4.5%;
+     top: 10%;
      bottom: 0;
      right: 0;
      opacity: 0;
      border-radius: 6px;
     transition: all 0.4s ease-in-out 0s;
     border: 1px solid rgb(102, 206, 171);
-    border-radius: 50px    
+    border-radius: 0px    
  
 }
+
+.project .wordp .overlay1 .link{
+    margin: 20px;
+    font-size: 40px;
+    
+}
+
+.project .wordp .overlay .link{
+    margin: 5px;
+    font-size: 40px;
+    
+}
+
+.project .wordp .overlay .link ion-icon{
+    color:rgb(102, 206, 171);
+    box-shadow: 0px 0px  20px  2px rgb(102, 206, 171);
+    border: 1px solid rgb(102, 206, 171);
+}
+.project .wordp .overlay1 .link ion-icon{
+    color:rgb(102, 206, 171);
+    box-shadow: 0px 0px  20px  2px rgb(102, 206, 171);
+    border: 1px solid rgb(102, 206, 171);
+
+}
+
+
 .project .wordp .overlay1{
    
     position:absolute;
-    width: 101%;
-    height: 40%;
-     left: 4%;
-     top: 49%;
+    width: 400px;
+    height: 150px;
+     left: 5%;
+     top: 10%;
      bottom: 0;
      right: 0;
      opacity: 0;
      border-radius: 6px;
     transition: all 0.4s ease-in-out 0s;
     border: 3px solid rgb(102, 206, 171);
-    border-radius: 50px  
+    border-radius: 0px  
    
 }  
  
 
 
 .project .wordp .overlay:hover
-{ opacity:0.7;
+{ 
+    opacity:0.7;
     background: rgb(0, 0, 0);
     justify-content: center;
    align-items: center;
 }
 
 .project .wordp .overlay1:hover
-{ opacity:0.7;
+{ 
+    opacity:0.7;
     background: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
@@ -1234,7 +1281,7 @@ span{
     
      
     .project .software .ware1 .git{
-        width: 80%;
+        width: 90%;
         justify-content: center;
         align-items: center;
     }
@@ -1261,5 +1308,73 @@ span{
     #myBtn{
         margin-left: 80%;
     }
+
+    .project .wordp .overlay1{
+   
+        position:absolute;
+        width: 266px;
+        height: 150px;
+         left: 6.5%;
+         top: 10%;
+         bottom: 0;
+         right: 0;
+         opacity: 0;
+         border-radius: 6px;
+        transition: all 0.4s ease-in-out 0s;
+        border: 1px solid rgb(102, 206, 171);
+        border-radius: 0px    
+     
+    }
+
+    .project .wordp .overlay1 .link ion-icon{
+        color:rgb(102, 206, 171);
+    }
+
+    .project .wordp .overlay1 .link{
+        margin: 0px;
+        font-size: 30px;
+        
+    }
+    
+    .project .wordp .overlay .link ion-icon{
+        color:rgb(102, 206, 171);
+    }
+    .project .wordp .overlay .link{
+        font-size: 30px;
+        
+    }
+    
+    .project .wordp .overlay{
+   
+        position:absolute;
+        width: 266px;
+        height: 150px;
+         left: 6.5%;
+         top: 10%;
+         bottom: 0;
+         right: 0;
+         opacity: 0;
+         border-radius: 6px;
+        transition: all 0.4s ease-in-out 0s;
+        border: 1px solid rgb(102, 206, 171);
+        border-radius: 0px    
+     
+    }
+
+    .project .wordp .overlay:hover
+    { 
+    opacity:0.7;
+    background: rgb(0, 0, 0);
+    justify-content: center;
+   align-items: center;
+    }
+    .project .wordp .overlay1:hover
+    { 
+    opacity:0.7;
+    background: rgb(0, 0, 0);
+    justify-content: center;
+   align-items: center;
+    }
+    
 
 }
