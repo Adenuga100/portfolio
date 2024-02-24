@@ -117,6 +117,7 @@ nav .menubtn ion-icon{
         overflow-x: hidden;
     }
     nav{
+        width: 106%;
       height: 50px;
         position: fixed;
     }
@@ -136,13 +137,14 @@ nav .menubtn ion-icon{
        align-items: center;
        bottom: 30px;
         display: inline;
-        left: -20px;
+        left: -30px;
         margin-right: auto;
         color: whitesmoke;
     }
 
     
 }
+
 
 
 
@@ -260,11 +262,38 @@ ul li a ion-icon{
 
   
 }
-@media screen and (max-width: 500px) and (min-width: 100px){
+
+@media screen and (max-width: 500px){
     section .home{
         justify-content: center;
         align-items: center;
-        width: 350px;
+        width: 450px;
+        height: 660px;
+    }
+
+    section .home .homes{
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-top: 35px;
+    }
+   
+    .home ul{
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+    
+
+  
+}
+
+@media screen and (max-width: 375px) and (min-width: 100px){
+    section .home{
+        justify-content: center;
+        align-items: center;
+        width: 389px;
         height: 660px;
         
     }
@@ -843,10 +872,10 @@ span{
  text-decoration: none;
  color: rgb(102, 206, 171) ;
  font-size: 20px;
-  margin: 30px;
+  margin: 0px;
   padding: 2px;
   position: relative;
-  margin-left: 45px;
+  margin-left: 0px;
   
 }
 .cont .contact .mail ion-icon{
@@ -965,6 +994,8 @@ span{
         justify-content: center;
         align-items: center;
     }
+
+    
 
     .cont .contact .num{
         justify-content: center;
