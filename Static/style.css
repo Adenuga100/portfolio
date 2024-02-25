@@ -462,10 +462,20 @@ span{
     }
 
     .About .about .about1 p{
-        width: 150%;
+        width: 180%;
         justify-content: center;
         align-items: center;
         text-align: left;
+        margin:-30px;
+        
+    }
+
+    .about1 button{
+        margin-top: 50px;
+    }
+
+    .about1 h4{
+        margin-bottom: 40px;
     }
 
 }
@@ -981,6 +991,8 @@ span{
         width: 80%;
         justify-content: center;
         align-items: center;
+        margin: -20px;
+        margin-top: 20px;
     }
 
    
@@ -1014,11 +1026,17 @@ span{
         align-items: center;
     }
 
-    
+    .cont .contact .mail .nu1{
+        margin: -10px;
+    }
 
     .cont .contact .num{
         justify-content: center;
         align-items: center;
+    }
+
+    .cont .contact .num .nu1{
+        margin-bottom: 20px;
     }
 
     .cont .contact .icon1{
@@ -1335,7 +1353,7 @@ span{
         font-size: 30px;
         
     }
-    
+
     .project .wordp .overlay .link ion-icon{
         color:rgb(102, 206, 171);
     }
