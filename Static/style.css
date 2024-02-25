@@ -462,20 +462,20 @@ span{
     }
 
     .About .about .about1 p{
-        width: 180%;
+        width: 340px;
         justify-content: center;
         align-items: center;
         text-align: left;
-        margin:-30px;
+        margin:-50px;
         
     }
 
     .about1 button{
-        margin-top: 50px;
+        margin-top: 60px;
     }
 
     .about1 h4{
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
 }
@@ -988,11 +988,12 @@ span{
        
     }
     .cont .contact p{
-        width: 80%;
+        width: 100%;
         justify-content: center;
         align-items: center;
         margin: -20px;
         margin-top: 20px;
+        margin-bottom: 40px;
     }
 
    
@@ -1036,7 +1037,7 @@ span{
     }
 
     .cont .contact .num .nu1{
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .cont .contact .icon1{
