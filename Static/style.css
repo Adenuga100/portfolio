@@ -131,7 +131,7 @@ nav .menubtn{
         margin-bottom: 55px;
     }
 
-    nav .menubtn, nav .close{
+    nav .menubtn{
         font-size: 25px;
         position: relative;
        justify-content: center;
