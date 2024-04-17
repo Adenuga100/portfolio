@@ -2,10 +2,10 @@
     box-sizing: border-box;
     padding: auto;
     margin: 0;
-    
 }
 
 html {
+    overflow-x: hidden;
     scroll-behavior: smooth
 }
 
@@ -95,7 +95,7 @@ nav .menubtn{
    
 
     nav{
-        width: 90%;
+        width: 100%;
         position: sticky;
         position: absolute;
     }
@@ -115,11 +115,10 @@ nav .menubtn{
         opacity: 1;
     }
 
-    body{
-        overflow-x: hidden;
-    }
+  
+
     nav{
-        width: 106%;
+        width: 100%;
       height: 50px;
         position: fixed;
     }
@@ -251,7 +250,7 @@ ul li a ion-icon{
     section .home{
         justify-content: center;
         align-items: center;
-        width: 679px;
+        width: 767px;
         height: 460px;
         
     }
@@ -274,15 +273,14 @@ ul li a ion-icon{
     section .home{
         justify-content: center;
         align-items: center;
-        width: 420px;
+        width: 423px;
         height: 460px;
     }
 
     section .home .homes{
         justify-content: center;
         align-items: center;
-        width: 104%;
-        margin-top: 35px;
+        width: 107%;
     }
    
     .home ul{
@@ -452,7 +450,77 @@ span{
     color: black;
 }
 
-@media screen and (max-width: 768px)and (min-width: 100px) {
+@media screen and (max-width: 768px){
+    .About{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .abouT{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+   
+    .About .about .img{
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+    }
+
+    .About .about img{
+        justify-content: center;
+        align-items: center;
+        width: 390px;
+        margin-top: 50px;
+        border: 5px solid rgb(102, 206, 171);
+        border-radius: 2000px;
+        box-shadow: 0px 0px 50px 2px rgb(102, 206, 171);
+        
+    }
+    .About .about .about1{
+
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .About .about .about1 p{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin:-50px;
+        font-size: 200%;
+    }
+
+    .about1 button{
+        margin-top: 90px;
+        height: 70px;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .about1 h4{
+        margin-bottom: 70px;
+        font-size: 250%;
+    }
+
+    .about1 h1{
+        font-size: 300%;
+    }
+
+
+    .about1 .ab2{
+        margin-top: 70px;
+    }
+
+}
+
+@media screen and (max-width: 500px)and (min-width: 100px) {
     .About{
         display: inline-block;
         justify-content: center;
@@ -485,10 +553,9 @@ span{
     }
 
     .About .about .about1 p{
-        width: 340px;
+        width: 140%;
         justify-content: center;
         align-items: center;
-        text-align: left;
         margin:-50px;
         
     }
@@ -596,7 +663,61 @@ span{
     margin: 5px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 100px){
+@media screen and (max-width: 768px){
+    .serivce{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .serivce .box .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serivce .box p{
+       font-size: 30px;
+    }
+
+    .serivce .box .btn button{
+     height: 55px;
+     font-size: 25px;
+     width: 240px;
+     margin-top: 15px;
+    }
+
+    .serivce .box .icon{
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .serivce .box .icon ion-icon{
+        font-size: 50px;
+    }
+    
+    .serivce .box{
+        width: 100%;
+        padding: 30px;
+        margin: 20px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .serivce .box h1{
+        font-size: 50px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 500px) and (min-width: 100px){
     .serivce{
         display: inline-block;
         justify-content: center;
@@ -715,7 +836,74 @@ span{
     display: flex;
 }
 
-@media screen and (max-width: 768px) and (min-width: 100px){
+@media screen and (max-width: 768px){
+    .skills{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .skil{
+       display: block; 
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-left: 15px;
+        
+
+    }
+
+    .skill h3::after{
+     display: none;
+    }
+
+    .skills h1{
+        font-size: 50px;
+    }
+
+    .skills h2{
+        font-size: 44px;
+    }
+
+    .skills h3{
+        font-size: 35px;
+    }
+
+    .skills p{
+        font-size: 30px;
+    }
+    .skill .div{
+   
+        justify-content: center;
+        align-items: center;
+    }
+
+   
+
+    .skil div{
+        justify-content: center;
+        align-items: center;
+       text-align: center;
+      
+    }
+
+    .skill .dev{
+        position: relative;
+        display: block;
+        margin: 5px;
+    }
+    .skil div .Tech{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skil div .Tech .man{
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 500px) and (min-width: 100px){
     .skills{
         display: block;
         justify-content: center;
@@ -763,6 +951,7 @@ span{
     }
 
 }
+
 
 /**softskills*/
 
@@ -858,7 +1047,7 @@ span{
     align-items: center;
     position: relative;
     width: 150px;
-    height: 150px;
+    height: auto;
 }
 
 .softskill .cir .per{
@@ -880,7 +1069,39 @@ span{
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 768px) and (min-width: 100px){
+@media screen and (max-width: 768px){
+  .softskills h1{
+    font-size: 50px;
+  }
+
+  .softskill p{
+    font-size: 30px;
+
+  }
+
+  .softskill .cir .per{
+    font-size: 30px;
+    justify-content: center;
+    position: absolute;
+    left: 90;
+  }
+
+  .softskill .cir{
+    width: 300px;
+    height: auto;
+    position: relative;
+  }
+
+ 
+
+  .softskill .cir svg{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 150px;
+    height: auto;
+}
+
   
 
 }
