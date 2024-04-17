@@ -250,7 +250,7 @@ ul li a ion-icon{
     section .home{
         justify-content: center;
         align-items: center;
-        width: 767px;
+        width: 779px;
         height: 460px;
         
     }
@@ -574,7 +574,6 @@ span{
 
 }
 
-
 /***About**/
 
 .serivces{
@@ -748,11 +747,9 @@ span{
         align-items: center;
     }
 
-    
     .serivce .box h1{
         font-size: 30px;
     }
-    
     
 }
 
@@ -1000,11 +997,8 @@ span{
     stroke-dasharray: 310;
     stroke-dashoffset:0;
     position: relative;
-    
     display: flex;
-    
 }
-
 
 .softskills .softskill svg .progress-bar3{
     fill:none ;
@@ -1017,8 +1011,6 @@ span{
     position: relative;
     display: flex;
 }
-
-
 
 .softskill{
     display: flex;
@@ -1102,8 +1094,6 @@ span{
     width: 150px;
     height: auto;
 }
-
-  
 
 }
 
@@ -1327,6 +1317,7 @@ span{
         align-items: center;
        
     }
+
     .cont .contact p{
         width: 100%;
         justify-content: center;
@@ -1335,8 +1326,6 @@ span{
         margin-top: 20px;
         margin-bottom: 40px;
     }
-
-   
 
     .cont .contact form .for input,textarea{
         width: 90%;
@@ -1390,9 +1379,6 @@ span{
         align-items: center;
         width: 70%;
     }
-
-
-
 }
 
 /**project**/
@@ -1518,10 +1504,6 @@ span{
     margin-top: 15px;
     align-items: center;
 }
-
-
-
-
 
 .project .wordp .overlay{
    
@@ -1672,21 +1654,21 @@ span{
         width: 90%;
         height: 190px;
     }
+
     #myBtn{
         margin-left: 80%;
     }
 
     .project .wordp .overlay1{
-   
         position:absolute;
         width: 276px;
         height: 190px;
-         left: 6.5%;
-         top: 10%;
-         bottom: 0;
-         right: 0;
-         opacity: 0;
-         border-radius: 6px;
+        left: 6.5%;
+        top: 10%;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        border-radius: 6px;
         transition: all 0.4s ease-in-out 0s;
         border: 1px solid rgb(102, 206, 171);
         border-radius: 0px    
@@ -1723,20 +1705,18 @@ span{
     }
     
     .project .wordp .overlay{
-   
         position:absolute;
         width: 280px;
         height: 190px;
-         left: 6.5%;
-         top: 9%;
-         bottom: 0;
-         right: 0;
-         opacity: 0;
-         border-radius: 6px;
+        left: 6.5%;
+        top: 9%;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        border-radius: 6px;
         transition: all 0.4s ease-in-out 0s;
         border: 1px solid rgb(102, 206, 171);
-        border-radius: 0px    
-     
+        border-radius: 0px
     }
 
     .project .wordp .overlay:hover
@@ -1746,6 +1726,7 @@ span{
     justify-content: center;
    align-items: center;
     }
+
     .project .wordp .overlay1:hover
     { 
     opacity:0.7;
@@ -1823,16 +1804,15 @@ span{
         position:absolute;
         width: 276px;
         height: 190px;
-         left: 6.5%;
-         top: 10%;
-         bottom: 0;
-         right: 0;
-         opacity: 0;
-         border-radius: 6px;
+        left: 6.5%;
+        top: 10%;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        border-radius: 6px;
         transition: all 0.4s ease-in-out 0s;
         border: 1px solid rgb(102, 206, 171);
         border-radius: 0px    
-     
     }
 
     .project .wordp .overlay1 .link ion-icon{
@@ -1869,16 +1849,15 @@ span{
         position:absolute;
         width: 280px;
         height: 190px;
-         left: 6.5%;
-         top: 9%;
-         bottom: 0;
-         right: 0;
-         opacity: 0;
-         border-radius: 6px;
+        left: 6.5%;
+        top: 9%;
+        bottom: 0;
+        right: 0;
+        opacity: 0;
+        border-radius: 6px;
         transition: all 0.4s ease-in-out 0s;
         border: 1px solid rgb(102, 206, 171);
-        border-radius: 0px    
-     
+        border-radius: 0px
     }
 
     .project .wordp .overlay:hover
